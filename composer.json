@@ -1,0 +1,7 @@
+{
+    "name": "fraym/htmleditor-ext",
+    "type": "fraym-extension",
+    "require": {
+        "fraym/fraym": "^1.0"
+    }
+}
