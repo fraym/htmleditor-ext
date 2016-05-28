@@ -1,5 +1,5 @@
 {
-    "name": "fraym/htmleditor-ext",
+    "name": "fraym/htmleditor-extension",
     "type": "fraym-extension",
     "description": "Create content elements with a Rich Text Editor.",
     "version": "1.0.0",
