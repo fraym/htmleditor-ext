@@ -1,6 +1,17 @@
 {
     "name": "fraym/htmleditor-ext",
     "type": "fraym-extension",
+    "description": "Create content elements with a Rich Text Editor.",
+    "version": "1.0.0",
+    "license": "GPL-2.0+",
+    "keywords": [
+        "fraym",
+        "html",
+        "rte",
+        "rich text",
+        "editor",
+        "WYSIWYG"
+    ],
     "require": {
         "fraym/fraym": "^1.0"
     }
