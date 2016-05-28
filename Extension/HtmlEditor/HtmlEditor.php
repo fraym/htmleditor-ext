@@ -33,12 +33,9 @@ use Fraym\Annotation\Registry;
  *      }
  * },
  * files={
- *      "Extension/HtmlEditor/*",
  *      "Extension/HtmlEditor/",
- *      "Template/Default/Extension/HtmlEditor/*",
  *      "Template/Default/Extension/HtmlEditor/",
- *      "Public/js/fraym/extension/htmleditor/*",
- *      "Public/js/fraym/extension/htmleditor/",
+ *      "Public/js/fraym/htmleditor/",
  * }
  * )
  * @Injectable(lazy=true)
