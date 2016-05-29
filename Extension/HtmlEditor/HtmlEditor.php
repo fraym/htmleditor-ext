@@ -15,11 +15,7 @@ use Fraym\Annotation\Registry;
  * @package Extension\HtmlEditor
  * @Registry(
  * name="Html Editor",
- * description="Create your content with a rich text editor.",
- * version="1.0.0",
- * author="Fraym.org",
- * website="http://www.fraym.org",
- * repositoryKey="FRAYM_EXT_HTML",
+ * repositoryKey="fraym/htmleditor-extension",
  * entity={
  *      "\Fraym\Block\Entity\Extension"={
  *          {
