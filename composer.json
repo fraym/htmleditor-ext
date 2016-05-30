@@ -21,6 +21,6 @@
         "WYSIWYG"
     ],
     "require": {
-        "fraym/fraym": "^1.0"
+        "fraym/fraym": ">1.0.0"
     }
 }
