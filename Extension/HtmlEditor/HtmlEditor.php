@@ -31,11 +31,6 @@ use Fraym\Annotation\Registry;
  *           "saveMethod"="saveBlockConfig"
  *           },
  *      }
- * },
- * files={
- *      "Extension/HtmlEditor/",
- *      "Template/Default/Extension/HtmlEditor/",
- *      "Public/js/fraym/htmleditor/",
  * }
  * )
  * @Injectable(lazy=true)
