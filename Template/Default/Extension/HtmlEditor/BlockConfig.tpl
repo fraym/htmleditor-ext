@@ -1,5 +1,5 @@
 <block type="js" group="extension-htmleditor" consolidate="false"></block>
-{js('fraym/htmleditor/html.js', 'extension-htmleditor')}
+{js('htmleditor/html.js', 'extension-htmleditor')}
 
 <div id="htmlblock-tabs">
    <ul>
