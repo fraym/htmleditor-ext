@@ -20,6 +20,11 @@
         "editor",
         "WYSIWYG"
     ],
+    "autoload": {
+        "psr-4": {
+            "Extension\\HtmlEditor\\": "Extension/HtmlEditor/"
+        }
+    },
     "require": {
         "fraym/core": "^1.0.0"
     }
