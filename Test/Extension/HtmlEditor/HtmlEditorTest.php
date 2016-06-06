@@ -6,7 +6,7 @@
  * @license   http://www.opensource.org/licenses/gpl-license.php GNU General Public License, version 2 or later (see the LICENSE file)
  */
 
-namespace Test\HtmlEditor;
+namespace Fraym\Test\Extension\HtmlEditor;
 
 class HtmlEditorTest extends \PHPUnit_Framework_TestCase
 {
@@ -25,8 +25,8 @@ class HtmlEditorTest extends \PHPUnit_Framework_TestCase
 
     public function testBuildMenuItemArray()
     {
-        /** @var $obj \Extension\HtmlEditor\HtmlEditor */
-        $obj = $this->diContainer->get('Extension\HtmlEditor\HtmlEditor');
+        /** @var $obj \Fraym\Extension\HtmlEditor\HtmlEditor */
+        $obj = $this->diContainer->get('Fraym\Extension\HtmlEditor\HtmlEditor');
         $this->assertTrue(is_array($obj->buildMenuItemArray()));
     }
 }
