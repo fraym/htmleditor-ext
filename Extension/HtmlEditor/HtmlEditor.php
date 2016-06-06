@@ -5,14 +5,14 @@
  * @copyright Dominik Weber <info@fraym.org>
  * @license   http://www.opensource.org/licenses/gpl-license.php GNU General Public License, version 2 or later (see the LICENSE file)
  */
-namespace Extension\HtmlEditor;
+namespace Fraym\Extension\HtmlEditor;
 
 use Fraym\Block\BlockMetadata;
-use \Fraym\Block\BlockXml as BlockXml;
+use Fraym\Block\BlockXml as BlockXml;
 use Fraym\Annotation\Registry;
 
 /**
- * @package Extension\HtmlEditor
+ * @package Fraym\Extension\HtmlEditor
  * @Registry(
  * name="Html Editor",
  * repositoryKey="fraym/htmleditor-extension",
@@ -21,7 +21,7 @@ use Fraym\Annotation\Registry;
  *          {
  *           "name"="Html Editor",
  *           "description"="Create formated text elements with a WYSIWYG Editor.",
- *           "class"="\Extension\HtmlEditor\HtmlEditor",
+ *           "class"="\Fraym\Extension\HtmlEditor\HtmlEditor",
  *           "configMethod"="getBlockConfig",
  *           "execMethod"="execBlock",
  *           "saveMethod"="saveBlockConfig"
@@ -35,7 +35,7 @@ class HtmlEditor
 {
     /**
      * @Inject
-     * @var \Extension\HtmlEditor\HtmlEditorController
+     * @var \Fraym\Extension\HtmlEditor\HtmlEditorController
      */
     protected $htmlEditorController;
 

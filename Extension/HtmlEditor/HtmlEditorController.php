@@ -5,11 +5,11 @@
  * @copyright Dominik Weber <info@fraym.org>
  * @license   http://www.opensource.org/licenses/gpl-license.php GNU General Public License, version 2 or later (see the LICENSE file)
  */
-namespace Extension\HtmlEditor;
+namespace Fraym\Extension\HtmlEditor;
 
 /**
  * Class HtmlEditorController
- * @package Extension\HtmlEditor
+ * @package Fraym\Extension\HtmlEditor
  * @Injectable(lazy=true)
  */
 class HtmlEditorController extends \Fraym\Core
@@ -22,7 +22,7 @@ class HtmlEditorController extends \Fraym\Core
 
     /**
      * @Inject
-     * @var \Extension\HtmlEditor\HtmlEditor
+     * @var \Fraym\Extension\HtmlEditor\HtmlEditor
      */
     protected $htmlEditor;
 
